@@ -6,8 +6,8 @@
   "scripts": {
     "start": "nodemon src/index.ts",
     "build": "tsc --project ./tsconfig.json",
-    "lint": "eslint . --ext .ts",
-    "lint:fix": "eslint . --ext .ts --fix"
+    "lint": "eslint . --ext .ts,.js",
+    "lint:fix": "eslint . --ext .ts,.js --fix"
   },
   "dependencies": {
     "express": "^4.17.1",
